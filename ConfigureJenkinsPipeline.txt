@@ -5,9 +5,9 @@ pipeline {
     stages {
         stage('Git checkout') {
             steps {
-                git credentialsId: 'Crushpowerx',
+                git credentialsId: 'ElDiablos81_1',
                     branch: 'main',
-                    url: 'https://github.com/Crushpowerx/JavaMavenTestngSelenideExample.git'
+                    url: 'https://github.com/ElDiablos81/JavaMavenTestngSelenideExample.git'
             }
         }
 	stage('Prepare Selenoid') {
